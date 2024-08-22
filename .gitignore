@@ -19,3 +19,9 @@ package-lock.json
 .vscode
 
 # Misc
+
+### macOS ###
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
