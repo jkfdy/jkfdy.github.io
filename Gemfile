@@ -23,6 +23,8 @@ gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
 gem 'csv', '~> 3.3'
+gem 'logger', '~> 1.6.5'
+gem 'base64', '~> 0.2.0'
 
 # Lock jekyll-sass-converter to 2.x on Linux-musl
 if RUBY_PLATFORM =~ /linux-musl/
