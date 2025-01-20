@@ -1,4 +1,9 @@
-# 面向新手的Git教程：打不开GitHub？
+---
+title: 面向新手的Git教程：打不开GitHub？
+date: 2025-01-20 11:00:00 +0800
+categories: [Git]
+tags: [Git, GitHub]
+---
 
 最近甲流横行，我也不小心中招了，今天请了一天假在家休息，正好水上一篇公众号……
 
