@@ -33,7 +33,7 @@ tags: [Git, GitHub]
 
 我们以`dnschecker.org`为例，这是一个可以查询不同地区的 DNS 记录的网站，打开这个网站后，在输入框中输入`github.com`，点击搜索：
 
-【图片】
+![DNS Checker](/assets/img/posts/2025/dns_checker.png)
 
 这样我们就得到了一份 GitHub 服务器 IP 的列表。
 
@@ -87,7 +87,7 @@ Connection to 20.26.156.215 port 443 [tcp/https] succeeded!
 
 ## 修改 hosts
 
-现在，我们找到了一个可以访问的 IP 地址（20.26.156.215），现在只需要在系统的 hosts 文件中为`github.com`配置为`20.26.156.215`即可。
+现在，我们找到了一个可以访问的 IP 地址（20.26.156.215），只需要在系统的 hosts 文件中为`github.com`配置为`20.26.156.215`即可。
 
 hosts 文件的作用类似于 DNS，在 hosts 文件中为指定域名配置 IP 地址后，访问该域名将不再走 DNS 解析，直接使用 hosts 文件中配置的 IP 地址。
 
@@ -95,4 +95,4 @@ Windows 系统中 hosts 文件位置为：`C:\Windows\System32\drivers\etc\hosts
 
 > 这里需要注意权限，在 Windows 中编辑 hosts 文件时，需要使用管理员权限运行编辑软件。同样在 mac 中也需要使用`sudo`提升到 root 权限才能修改 hosts 文件。
 
-在自己系统的 hosts 文件中添加：`20.26.156.215	github.com`并保存后，在浏览器中就可以正常访问 GitHub 了。
+在自己系统的 hosts 文件中添加：`20.26.156.215	github.com`并保存后，在浏览器中就可以正常访问 GitHub 啦。
