@@ -75,13 +75,13 @@ nc -zv 20.205.243.166 443
 
 如下输出为不可访问：
 
-```
+```Bash
 nc: connectx to 20.205.243.166 port 443 (tcp) failed: Operation timed out
 ```
 
 如下输出为可以访问：
 
-```
+```Bash
 Connection to 20.26.156.215 port 443 [tcp/https] succeeded!
 ```
 
@@ -96,3 +96,20 @@ Windows 系统中 hosts 文件位置为：`C:\Windows\System32\drivers\etc\hosts
 > 这里需要注意权限，在 Windows 中编辑 hosts 文件时，需要使用管理员权限运行编辑软件。同样在 mac 中也需要使用`sudo`提升到 root 权限才能修改 hosts 文件。
 
 在自己系统的 hosts 文件中添加：`20.26.156.215	github.com`并保存后，在浏览器中就可以正常访问 GitHub 啦。
+
+## 刷新 DNS 缓存
+
+如果还是不能访问，可以尝试一下刷新电脑的 DNS 缓存。
+
+Windows 执行：
+
+```Bash
+ipconfig /flushdns
+```
+
+macOS 执行：
+
+```Bash
+sudo dscacheutil -flushcache
+sudo killall -HUP mDNSResponder
+```
