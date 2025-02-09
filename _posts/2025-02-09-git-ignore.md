@@ -70,11 +70,11 @@ doc/**/*.pdf
 
 忽略文件只需要能看懂即可，没必要自己写，因为现在有很方便的工具网站可以在线生成忽略文件。比如：`gitignore.io`这个网站。
 
-[图片]
+![gitignore.io](/assets/img/posts/2025/gitignore1.png)
 
 打开网页后，可以看到一个输入框和一个创建按钮，在输入框中输入我们的环境后，比如我这里输入了`macOS`、`JetBrains`、`Java`后，点击创建按钮，网页就会跳转到生成的忽略文件，只需要把当前这个文件保存到我们的项目根目录中，然后重命名为`.gitignore`即可。
 
-【图片】
+![gitignore](/assets/img/posts/2025/gitignore2.png)
 
 当然更简单的方式是使用命令行，在项目根目录中执行：
 
