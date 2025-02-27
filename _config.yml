@@ -49,6 +49,7 @@ social:
     # - https://www.linkedin.com/in/username
 
 google_site_verification: # fill in to your verification string
+google_ads_client: ca-pub-5741824894497098
 
 # ↑ --------------------------
 # The end of `jekyll-seo-tag` settings
