@@ -88,7 +88,7 @@ avatar: "/assets/img/site/avatar.png"
 toc: true
 
 comments:
-  active: # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
+  active: 'cusdis' # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
   # The active options are as follows:
   disqus:
     shortname: # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
@@ -106,6 +106,12 @@ comments:
     input_position: # optional, default to 'bottom'
     lang: # optional, default to the value of `site.lang`
     reactions_enabled: # optional, default to the value of `1`
+  # Cusdis
+  cusdis:
+  # 本地测试
+    # app_id: '67f81023-52d7-4f99-8fa8-4197f854dfff' 
+    # 正式测试
+    app_id: '08e3964a-9f56-438c-9c82-f19789ed1998'
 
 # Self-hosted static assets, optional › https://github.com/cotes2020/chirpy-static-assets
 assets:
