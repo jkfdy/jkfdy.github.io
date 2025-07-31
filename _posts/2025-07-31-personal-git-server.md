@@ -1,6 +1,6 @@
 ---
 title: 面向新手的Git教程：搭建个人 Git 托管服务器
-date: 2025-08-01 11:00:00 +0800
+date: 2025-07-31 15:00:00 +0800
 categories: [Git]
 tags: [Git, GitHub]
 ---
