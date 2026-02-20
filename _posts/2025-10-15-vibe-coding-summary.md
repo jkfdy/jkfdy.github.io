@@ -30,3 +30,5 @@ tags: [AI]
 2025-12-31: Simon Willison（Django框架的共同创造者、Lanyrd联合创始人）更新了[the year in llms](https://simonwillison.net/2025/Dec/31/the-year-in-llms/)，池建强发布了[翻译版本](https://note.mowen.cn/detail/lypEigmjeAU1fykX5n5Fq)，此文中也提到了 MCP 可能会被 CLI 取代的观点。
 
 2026-1-11: limboy 更新了[「共」型人才：AI 时代的个体进化论](https://limboy.me/posts/gong-type-of-talent)，limboy 写的文章总是那么有深度，真不知道是怎么做到既有深度，更新频率又高的。
+
+2026-2-20: [Claude Code深度教程](https://claudecode.tangshuang.net/tutorial)，这个网站提供了《程序员教程》、《小白教程》两个教程，面向不同层次的读者。Claude Code可以说是 2025 年最火的 AI Code Agent。
